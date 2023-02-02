@@ -45,12 +45,12 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-    """Prints to stdout the square with the character #,
-    at the position given by the position attribute.
-    """
+        """Prints to stdout the square with the character #,
+        at the position given by the position attribute.
+        """
     if self.__size == 0:
         print()
-        return
+    return
     for y in range(0, self.__position[1]):
         print()
     for i in range(0, self.__size):

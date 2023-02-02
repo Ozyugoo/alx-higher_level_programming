@@ -23,7 +23,7 @@ class Square:
         if value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
-        
+
     def area(self):
         """ Calculating the area of the square """
         return (self.__size ** 2)
@@ -47,7 +47,7 @@ class Square:
     def __gt__(self, other):
         """ Comparing > two squares """
         return self.area() > other.area()
-     
+
     def __ge__(self, other):
         """ Comparing >= two squares """
         return self.area() >= other.area()
