@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Creating a rectangle class"""
 import json
-from base import Base
+from models.base import Base
 
 
 class Rectangle(Base):
